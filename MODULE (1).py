@@ -11,7 +11,7 @@ if __name__ == "__main__":
     else:
         print("Invalid month! Please enter a month between 1 and 12.")
 
-Calculate of the bike
+# Calculate the cc of the bike
 import math
 def calculate_cc(bore, stroke, cylinders):
     displacement = (math.pi / 4) * (bore ** 2) * stroke * cylinders
